@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>My website </title>
+    </head>
+    <body>
+        Lezione 20: i form <br>
+        <p> input type="text" = e` quello di default </p>
+        <p> input type="checkbox" </p>
+        <p> input type="radio" = ne ne sono presenti piu` di uno solo uno puo essere selezionato </p>
+        <p> con il tag select e poi option, si crea una lista (si clicca e compaiono i valori inseriti) </p>
+        <p> il tag submit serve per creare un bottone cliccabile </p>
+        <p> Il tag value e` molto importante: serve per dare un nome agli input ( ad esempio text e submit ) e dar un valore ai tag radio/checkbox da inviare quando verra` inviata la pagina compilata
+        <form>
+            <p> Username: <input type="text" value="Il tuo nome"> </p>
+            <p> <input type="checkbox" value="check"> </p>
+            <p> Minorenne: <input type="radio" name="age" value="min" </p>
+            <p> Maggiorenne: <input type="radio" name="age" value="mag"> </p>
+
+            <p> Favourite food:
+            <select>
+                <option>Pizza</option>
+                <option>Gelato</option>
+                <option>Panino</option>
+            </select>
+            </p>
+            <ol>
+                <li>Usando value <input type="text" value="value"></li>
+                <li>Usando il placeholder <input type="text" placeholder="placeholder"> non bisogna cancellare il testo all'interno del box </li>
+                <li>Aggiungo il tag checked per aver gia` presente il check <input type="checkbox" checked></li>
+                <li>Aggiungo selected al valore che voglio in prima vista nella lista (in questo caso invece di pizza ho messo gelato)<br>
+                <select>
+                    <option>Pizza</option>
+                    <option selected>Gelato</option>
+                    <option>Panino</option>
+                </select>
+                </li>
+                <br>
+            <p><input type="submit" value="Clicca qui!"></p>
+        </form>
+    </body>
+</html>
